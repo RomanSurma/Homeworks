@@ -1,0 +1,9 @@
+def correct_tail(body, tail):
+    sub = body.split()   
+    list(sub)
+    sub = ' '.join(sub[::-1])
+    sub = sub[len(sub) - 1]
+    if sub == tail:
+        return True
+    else:
+        return False
