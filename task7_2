@@ -1,0 +1,5 @@
+def list_animals(animals):
+    list_1 = []
+    for i in range(len(animals)):
+        list_1.append(str(i+1) + '. ' + animals[i] + '\n')
+    return ''.join(list_1)
